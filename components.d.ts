@@ -7,15 +7,18 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    AButton: typeof import('ant-design-vue/es')['Button']
-    ADropdown: typeof import('ant-design-vue/es')['Dropdown']
+    ALayout: typeof import('ant-design-vue/es')['Layout']
+    ALayoutContent: typeof import('ant-design-vue/es')['LayoutContent']
+    ALayoutHeader: typeof import('ant-design-vue/es')['LayoutHeader']
+    ALayoutSider: typeof import('ant-design-vue/es')['LayoutSider']
     AMenu: typeof import('ant-design-vue/es')['Menu']
     AMenuItem: typeof import('ant-design-vue/es')['MenuItem']
-    APageHeader: typeof import('ant-design-vue/es')['PageHeader']
-    ARow: typeof import('ant-design-vue/es')['Row']
-    ATag: typeof import('ant-design-vue/es')['Tag']
-    EllipsisOutlined: typeof import('@ant-design/icons-vue')['EllipsisOutlined']
+    MenuFoldOutlined: typeof import('@ant-design/icons-vue')['MenuFoldOutlined']
+    MenuUnfoldOutlined: typeof import('@ant-design/icons-vue')['MenuUnfoldOutlined']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    UploadOutlined: typeof import('@ant-design/icons-vue')['UploadOutlined']
+    UserOutlined: typeof import('@ant-design/icons-vue')['UserOutlined']
+    VideoCameraOutlined: typeof import('@ant-design/icons-vue')['VideoCameraOutlined']
   }
 }
